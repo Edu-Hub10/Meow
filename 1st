@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow eBook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Buy My eBook</h1>
+        <div class="book-cover">
+            <img src="cover.jpg" alt="Book Cover">
+        </div>
+        <p class="description">Get your copy of my Meow eBook now!</p>
+        <button id="buy-button">Buy Now</button>
+    </div>
+
+    <!-- Include the Square payment form library -->
+    <script type="text/javascript" src="https://sandbox.web.squarecdn.com/v1/square.js"></script>
+    <script src="payment.js"></script>
+</body>
+</html>
