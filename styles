@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.book-cover img {
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin: 20px 0;
+}
+
+#buy-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#buy-button:hover {
+    background-color: gray;
+}
